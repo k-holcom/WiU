@@ -1,0 +1,122 @@
+/*****************
+	MAIN TAGS
+*****************/
+body{
+	margin:0px;
+	background:#666;
+}
+
+figure{
+	margin:auto;
+}
+
+figcaption{
+	font-size:0.6em;
+	text-align: center
+}
+
+table{
+	width:100%;
+	margin:2%;
+}
+
+th{
+	font-family:"Alegreya SC", "PT Serif Bold", serif;
+	color:#333;
+	text-decoration: underline;
+	font-size: 1.5em;
+}
+
+td{
+	width:46%;
+	padding:1%;
+	text-align: center;
+	font-size: 1.25em;
+}
+
+footer{
+	height:5em;
+	padding:1%;
+	font-size: 0.6em;
+	color:#BBB;
+	text-align: center;
+}
+
+/*****************
+       LINKS
+*****************/
+
+a:link{
+	color:#333;
+	text-decoration:none;
+}
+a:visited{
+	color:#333;
+	text-decoration:none;
+}
+
+a:hover{
+	color:#994848;
+}
+
+/*****************
+    HEADER TAGS
+*****************/
+
+h1{
+	font-family:"Alegreya SC", "PT Serif Bold", serif;
+	margin:2% 5%;
+	color:#333;
+}
+
+h2{
+	font-family:"Alegreya SC", "PT Serif Bold", serif;
+	color:#333;
+}
+
+/*****************
+	   ID's
+*****************/
+#container{
+	background:url("../images/bg.jpg") no-repeat;
+	overflow: auto;
+	margin:0 auto;
+	width:960px;
+	box-shadow: 3px 3px 4px #333;
+}
+#projDescription{
+	width:40%;
+	margin:1% 1% 1% 5%;
+	color:#333D40;
+	padding:1em;
+	border-radius: 1em;
+	float:left;
+}
+
+#projDescription p{
+	font-size: 1.5em;
+}
+
+#img{
+	margin:10% 10% 1% 1%;
+	float:right;
+}
+
+#tests{
+	width:88%;
+	margin:auto;
+	clear:both;
+	padding:1%;
+}
+
+/*****************
+	 CLASSES's
+*****************/
+.headings{
+	width:40%;
+	border-bottom:0.2em solid #333;
+}
+
+.tests{
+	width:20%;
+}
